@@ -1,0 +1,29 @@
+MVT (file structure of Django)
+1) Model // Everything related to DB
+2) View // All logical work -- Controller that feeds DB content to display in templates (middleman)
+3) Template // Which page you view or show
+
+MVT has Views for receiving HTTP request and returning HTTP response.
+Templates are used in MVT like Views are in MVC
+Controller part is managed by the framework itself.
+Modifications are easy
+Suitable both small and large applications.
+Flow is sometimes harder to understand as compared to MVC.
+URL pattern mapping takes place.
+Django uses MVT pattern.
+
+_______________________________________________________________
+
+... as opposed to MVC (Model View Controller)
+1) Model // same
+2) View // Which page you view/show
+3) Controller // All logical work -- Controller
+
+MVC has controller that drives both Model and View.
+View tells how the user data will be presented.
+In MVC, we have to write all the control specific code.
+Modifications are difficult	
+Suitable for development of large applications but not for small applications.	
+Flow is clearly defined thus easy to understand.	
+It doesn’t involve mapping of URLs.	
+Examples are ASP.NET MVC, Spring MVC etc.	
